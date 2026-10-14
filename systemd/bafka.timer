@@ -1,0 +1,13 @@
+[Unit]
+Description=Run bafka every hour
+After=graphical-session.target
+Requisite=graphical-session.target
+PartOf=graphical-session.target
+
+[Timer]
+OnCalendar=hourly
+Persistent=true
+
+[Install]
+WantedBy=graphical-session.target
+

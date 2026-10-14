@@ -1,0 +1,4 @@
+github.com/btoll/link-scanner v0.0.0-20261016060719-8342dd1c2a8f h1:bTVjF+uJ6Asae8n8gMlgFasF73i2ZpfikkX1z9ED5yA=
+github.com/btoll/link-scanner v0.0.0-20261016060719-8342dd1c2a8f/go.mod h1:oo2Kp5yn+zEaTPEebRk5J0DE45lSVlDatGJlmHXTIcY=
+golang.org/x/net v0.61.0 h1:RR+6j/BTBCrggOLugxa+66R8FvoN6MHlzDlZIbN9YFw=
+golang.org/x/net v0.61.0/go.mod h1:WgDCOTH8iwtB66T4/GfI94AHo/hhdb7Hah9NDseQfiI=

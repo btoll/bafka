@@ -1,0 +1,11 @@
+[Unit]
+Description=Scan every article on benjamintoll.com for broken links
+After=graphical-session.target
+Requisite=graphical-session.target
+PartOf=graphical-session.target
+
+[Service]
+Type=oneshot
+ExecStart=/home/btoll/projects/bafka/bafka -uri https://benjamintoll.com -workers 40 -output /tmp/scan_results.jsonl
+ExecStartPost=/usr/bin/notify-send "bafka job finished" "Scan results written to /tmp/scan_results.jsonl"
+
